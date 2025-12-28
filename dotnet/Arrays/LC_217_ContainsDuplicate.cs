@@ -1,11 +1,21 @@
-﻿public class LC_217_ContainsDuplicate{
+﻿
+using System;
+using System.Collections.Generic;
+public class LC_217_ContainsDuplicate{
 
     static bool Question(int[] nums) 
     {
         var solutions = new Func<bool>[]
         {
             () => {
-                return true;
+                HashSet<int> values = [];
+                
+                for(int i = 0; i < nums.Length; i++)
+                {
+                    if(!values.Add(nums[i])) return true;
+                }
+
+                return false;
             }
         };
 
