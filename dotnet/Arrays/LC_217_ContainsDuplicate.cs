@@ -1,9 +1,11 @@
 ﻿
 using System;
 using System.Collections.Generic;
-public class LC_217_ContainsDuplicate{
 
-    static bool Question(int[] nums) 
+namespace Arrays;
+internal class LC_217_ContainsDuplicate{
+
+    public static bool Question(int[] nums) 
     {
         var solutions = new Func<bool>[]
         {
