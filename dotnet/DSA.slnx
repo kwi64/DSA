@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01.ArraysAndHashing.Tests/01.ArraysAndHashing.Tests.csproj" />
+  <Project Path="01.ArraysAndHashing/01.ArraysAndHashing.csproj" />
+  <Project Path="02.TwoPointers.Tests/02.TwoPointers.Tests.csproj" />
+  <Project Path="02.TwoPointers/02.TwoPointers.csproj" />
+</Solution>
