@@ -1,7 +1,7 @@
-using Arrays;
+using ArraysAndHashing;
 using NUnit.Framework.Legacy;
 
-namespace Arrays.Tests;
+namespace ArraysAndHashing.Tests;
 
 [TestFixture]
 class LC_217_ContainsDuplicateTest

@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <InternalsVisibleTo Include="Arrays.Tests" />
+    <InternalsVisibleTo Include="01.ArraysAndHashing.Tests" />
   </ItemGroup>
 
 </Project>

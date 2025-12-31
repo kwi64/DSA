@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Arrays;
+namespace ArraysAndHashing;
 internal class LC_217_ContainsDuplicate{
 
     public static bool Question(int[] nums) 
