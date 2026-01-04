@@ -8,4 +8,6 @@
   <Project Path="01.ArraysAndHashing/01.ArraysAndHashing.csproj" />
   <Project Path="02.TwoPointers.Tests/02.TwoPointers.Tests.csproj" />
   <Project Path="02.TwoPointers/02.TwoPointers.csproj" />
+  <Project Path="03.Stack.Tests/03.Stack.Tests.csproj" />
+  <Project Path="03.Stack/03.Stack.csproj" />
 </Solution>

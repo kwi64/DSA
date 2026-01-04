@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net10.0</TargetFramework>
-    <RootNamespace>_02.TwoPointers</RootNamespace>
+    <RootNamespace>TwoPointers</RootNamespace>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <StartupObject>TwoPointers.LC_125_ValidPalindrome</StartupObject>
