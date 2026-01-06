@@ -3,10 +3,14 @@ using System;
 
 namespace TwoPointers;
 
+/*
+* You should aim for a solution with O(n) time and O(1) space, where n is the length of the input string.
+*/
+
 internal class LC_125_ValidPalindrome
 {
 
-    public static bool Question(string s)
+    public static bool IsPalindrome(string s)
     {
         Func<bool>[] solutions = [
             () => {
@@ -46,18 +50,17 @@ internal class LC_125_ValidPalindrome
     static void Main(string[] args)
     {
 
-        bool test1 = Question("A man, a plan, a canal: Panama"); // true
-                                                                 // bool test2 = Question("race a car"); // false
-                                                                 // bool test3 = Question(" ");
-                                                                 // bool test4 = Question(".,");
-                                                                 // bool test5 = Question("0P");
+        bool test1 = IsPalindrome("A man, a plan, a canal: Panama"); // true
+        bool test2 = IsPalindrome("race a car"); // false
+        bool test3 = IsPalindrome(" "); // true
+        bool test4 = IsPalindrome(".,"); // true
+        bool test5 = IsPalindrome("0P"); // false
 
 
-        // Console.WriteLine($"Is Letter: {char.IsLetter(' ')}");
         Console.WriteLine($"Test 1: {test1}");
-        // Console.WriteLine($"Test 2: {test2}");
-        // Console.WriteLine($"Test 3: {test3}");
-        // Console.WriteLine($"Test 4: {test4}");
-        // Console.WriteLine($"Test 5: {test5}");
+        Console.WriteLine($"Test 2: {test2}");
+        Console.WriteLine($"Test 3: {test3}");
+        Console.WriteLine($"Test 4: {test4}");
+        Console.WriteLine($"Test 5: {test5}");
     }
 }

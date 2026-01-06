@@ -16,7 +16,7 @@ class LC_217_ContainsDuplicateTest
         // Arranged from the test case data
 
         // Act
-        bool actual = LC_217_ContainsDuplicate.Question(nums);
+        bool actual = LC_217_ContainsDuplicate.ContainsDuplicate(nums);
 
         // Assert
         Assert.That(actual, Is.EqualTo(expected));

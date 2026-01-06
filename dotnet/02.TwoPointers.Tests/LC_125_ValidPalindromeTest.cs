@@ -16,7 +16,7 @@ public class LC_125_ValidPalindromeTest
         // Arrange
 
         // Act
-        bool actual = LC_125_ValidPalindrome.Question(s);
+        bool actual = LC_125_ValidPalindrome.IsPalindrome(s);
 
         // Assert
         Assert.That(actual, Is.EqualTo(expected));
