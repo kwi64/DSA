@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ArraysAndHashing;
+namespace _01_ArraysAndHashing;
 
 internal class LC_217_ContainsDuplicate
 {

@@ -3,14 +3,14 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net10.0</TargetFramework>
-    <RootNamespace>TwoPointers</RootNamespace>
+    <RootNamespace>_02_TwoPointers</RootNamespace>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>TwoPointers.LC_125_ValidPalindrome</StartupObject>
+    <StartupObject>_02_TwoPointers.LC_125_ValidPalindrome</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
-    <InternalsVisibleTo Include="02.TwoPointers.Tests" />
+    <InternalsVisibleTo Include="02_TwoPointers.Tests" />
   </ItemGroup>
 
 </Project>

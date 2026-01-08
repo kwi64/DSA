@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\02.TwoPointers\02.TwoPointers.csproj" />
+    <ProjectReference Include="..\02_TwoPointers\02_TwoPointers.csproj" />
   </ItemGroup>
 
 </Project>

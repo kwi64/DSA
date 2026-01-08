@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Stack.Tests</RootNamespace>
     <LangVersion>latest</LangVersion>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -21,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\01.ArraysAndHashing\01.ArraysAndHashing.csproj" />
+    <ProjectReference Include="..\03_Stack\03_Stack.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace TwoPointers;
+namespace _02_TwoPointers;
 
 /*
 * You should aim for a solution with O(n) time and O(1) space, where n is the length of the input string.

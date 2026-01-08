@@ -1,6 +1,6 @@
 ﻿namespace Stack.Tests;
 
-using Stack;
+using _03_Stack;
 
 [TestFixture]
 public class Tests

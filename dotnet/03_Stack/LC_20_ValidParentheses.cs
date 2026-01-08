@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Stack;
+namespace _03_Stack;
 
 internal class LC_20_ValidParentheses
 {

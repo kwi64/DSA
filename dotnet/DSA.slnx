@@ -4,10 +4,10 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="01.ArraysAndHashing.Tests/01.ArraysAndHashing.Tests.csproj" />
-  <Project Path="01.ArraysAndHashing/01.ArraysAndHashing.csproj" />
-  <Project Path="02.TwoPointers.Tests/02.TwoPointers.Tests.csproj" />
-  <Project Path="02.TwoPointers/02.TwoPointers.csproj" />
-  <Project Path="03.Stack.Tests/03.Stack.Tests.csproj" />
-  <Project Path="03.Stack/03.Stack.csproj" />
+  <Project Path="01_ArraysAndHashing.Tests/01_ArraysAndHashing.Tests.csproj" />
+  <Project Path="01_ArraysAndHashing/01_ArraysAndHashing.csproj" />
+  <Project Path="02_TwoPointers.Tests/02_TwoPointers.Tests.csproj" />
+  <Project Path="02_TwoPointers/02_TwoPointers.csproj" />
+  <Project Path="03_Stack.Tests/03_Stack.Tests.csproj" />
+  <Project Path="03_Stack/03_Stack.csproj" />
 </Solution>
