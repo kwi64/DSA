@@ -2,7 +2,7 @@ using System;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
-static class RunInfo
+static class Utils
 {
     [ModuleInitializer]
     public static void PrintInfo()
