@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Collections;
 
 namespace _03_Stack;
+
 internal class LC_20_ValidParentheses
 {
+    /*
+    You should aim for a solution with O(n) time and O(n) space, where n is the length of the given string.
+    */
     public static bool IsValid(string s)
     {
         List<Func<bool>> solutions = [
@@ -17,14 +19,14 @@ internal class LC_20_ValidParentheses
                     ['['] = ']',
                 };
                 Stack<char> brackets = new();
-                
+
                 int i = 0;
                 while(i < s.Length)
                 {
                     if(pairs.ContainsKey(s[i]))
                     {
                         // collect and go to next iteration
-                        brackets.Push(s[i++]); 
+                        brackets.Push(s[i++]);
                         continue;
                     }
 
@@ -36,15 +38,38 @@ internal class LC_20_ValidParentheses
                         i++;
                         continue;
                     }
-                    
+
                     return false;
                 }
 
                 return brackets.Count == 0;
-            }
+            },
+
+            () => {
+                Stack<char> brackets = [];
+
+                foreach(char bracket in s)
+                {
+                    if (bracket == '(' || bracket == '{' || bracket == '[')
+                    {
+                        // its an opening brackt
+                        brackets.Push(bracket);
+                    }
+                    else
+                    {
+                        if(brackets.Count == 0) return false;
+                        char topOpeningBracket = brackets.Pop();
+                        if(bracket == ')' && topOpeningBracket != '(') return false;
+                        if(bracket == '}' && topOpeningBracket != '{') return false;
+                        if(bracket == ']' && topOpeningBracket != '[') return false;
+                    }
+                }
+
+                return brackets.Count == 0;
+            },
         ];
 
-        return solutions[0].Invoke();
+        return solutions[1].Invoke();
     }
 
     static void Main(string[] args)
@@ -64,5 +89,5 @@ internal class LC_20_ValidParentheses
         Console.WriteLine($"Test5 Expected False; Actual {test5}");
         Console.WriteLine($"Test6 Expected False; Actual {test6}");
         Console.WriteLine($"Test7 Expected False; Actual {test7}");
-    }   
+    }
 }
