@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
@@ -12,4 +13,9 @@ static class Utils
 
         Console.WriteLine("Running: {0}\n", startup);
     }
+    
+    extension<T>(Stack<T> enumerable)
+    {
+        public string Printout => $"[{enumerable.GetType().Name}] => [ {string.Join(", ", enumerable)} ]\n";
+    }  
 }
