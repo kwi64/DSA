@@ -11,7 +11,7 @@ public class Tests
     [TestCase("([)]", false)]
     [TestCase("[", false)]
     [TestCase("]", false)]
-    public void IsValid_WhenEvaluatingBracketCombinations_ReturnsExpectedResult(string s, bool expected)
+    public void IsValid_WithVariousBracketCombinations_ReturnsExpectedResult(string s, bool expected)
     {
         // Arrange
 

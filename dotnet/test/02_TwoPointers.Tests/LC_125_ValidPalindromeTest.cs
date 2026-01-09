@@ -9,7 +9,7 @@ public class LC_125_ValidPalindromeTest
     [TestCase(" ", true)]
     [TestCase(".,", true)]
     [TestCase("0P", false)]
-    public void Question_ValidPalindrome_Should(string s, bool expected)
+    public void IsPalindrome_WithVariousInputs_ReturnsExpectedResult(string s, bool expected)
     {
         // Arrange
 
