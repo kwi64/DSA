@@ -1,6 +1,3 @@
-using _01_ArraysAndHashing;
-using NUnit.Framework.Legacy;
-
 namespace _01_ArraysAndHashing.Tests;
 
 [TestFixture]

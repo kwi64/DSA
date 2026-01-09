@@ -1,6 +1,4 @@
-﻿using _02_TwoPointers;
-
-namespace _02_TwoPointers.Tests;
+﻿namespace _02_TwoPointers.Tests;
 
 [TestFixture]
 public class LC_125_ValidPalindromeTest
