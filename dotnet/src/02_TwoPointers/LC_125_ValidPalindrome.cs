@@ -12,7 +12,8 @@ internal class LC_125_ValidPalindrome
 
     public static bool IsPalindrome(string s)
     {
-        Func<bool>[] solutions = [
+        Func<bool>[] solutions =
+        [
             () => {
                 int left = 0;
                 int right = s.Length - 1;

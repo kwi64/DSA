@@ -10,7 +10,7 @@ internal class LC_20_ValidParentheses
     */
     public static bool IsValid(string s)
     {
-        List<Func<bool>> solutions = [
+        Func<bool>[] solutions = [
             () => {
                 Dictionary<char, char> pairs = new()
                 {

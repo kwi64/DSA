@@ -9,8 +9,8 @@ internal class LC_217_ContainsDuplicate
 
     public static bool ContainsDuplicate(int[] nums)
     {
-        var solutions = new Func<bool>[]
-        {
+        Func<bool>[] solutions = [
+
             () => {
                 HashSet<int> values = [];
 
@@ -21,7 +21,7 @@ internal class LC_217_ContainsDuplicate
 
                 return false;
             }
-        };
+        ];
 
         return solutions[0].Invoke();
     }
