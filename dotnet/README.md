@@ -10,13 +10,15 @@ dotnet new nunit --name '<StepNumber>_<StepTitle>.Test'
 
 ### Adding projects to solution
 ```bash
-dotnet sln add '<StepNumber>_<StepTitle>' '<StepNumber>_<StepTitle>.Tests'
+dotnet sln add '<StepNumber>_<StepTitle>' -s src
+dotnet sln add '<StepNumber>_<StepTitle>.Tests' -s test
 ```
 
-### Adding projects project reference to TestProject
+### Working with project references
 ```bash
 cd '<StepNumber>_<StepTitle>.Tests'
 dotnet add reference '../<StepNumber>_<StepTitle>'
+dotnet remove reference '../<StepNumber>_<StepTitle>.csproj'
 ```
 
 
