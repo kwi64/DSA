@@ -8,10 +8,12 @@
     <Project Path="src/01_ArraysAndHashing/01_ArraysAndHashing.csproj" />
     <Project Path="src/02_TwoPointers/02_TwoPointers.csproj" />
     <Project Path="src/03_Stack/03_Stack.csproj" />
+    <Project Path="src/04_BinarySearch/04_BinarySearch.csproj" />
   </Folder>
   <Folder Name="/test/">
     <Project Path="test/01_ArraysAndHashing.Tests/01_ArraysAndHashing.Tests.csproj" />
     <Project Path="test/02_TwoPointers.Tests/02_TwoPointers.Tests.csproj" />
     <Project Path="test/03_Stack.Tests/03_Stack.Tests.csproj" />
+    <Project Path="test/04_BinarySearch.Tests/04_BinarySearch.Tests.csproj" />
   </Folder>
 </Solution>
