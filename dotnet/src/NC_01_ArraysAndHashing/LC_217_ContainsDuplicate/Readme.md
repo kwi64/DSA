@@ -1,4 +1,4 @@
-# Contains Duplicate
+# 217. Contains Duplicate
 
 Given an integer array nums, return true if any value appears more than once in the array, otherwise return false.
 
@@ -18,7 +18,7 @@ Input: nums = [1, 2, 3, 4]
 Output: false
 ```
 
-## Recommended Time & Space Complexity
+## Recommendations
 
 You should aim for a solution with O(n) time and O(n) space, where n is the size of the input array.
 

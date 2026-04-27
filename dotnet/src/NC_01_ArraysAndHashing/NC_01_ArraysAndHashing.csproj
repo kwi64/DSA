@@ -3,13 +3,14 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net10.0</TargetFramework>
-    <RootNamespace>_01_ArraysAndHashing</RootNamespace>
+    <RootNamespace>NC_01_ArraysAndHashing</RootNamespace>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<StartupObject></StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
-    <InternalsVisibleTo Include="01_ArraysAndHashing.Tests" />
+    <InternalsVisibleTo Include="NC_01_ArraysAndHashing.Tests" />
   </ItemGroup>
 
 </Project>

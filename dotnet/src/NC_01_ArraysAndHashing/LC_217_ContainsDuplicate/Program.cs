@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 
-namespace _01_ArraysAndHashing.LC_217_ContainsDuplicate;
+namespace NC_01_ArraysAndHashing.LC_217_ContainsDuplicate;
 
 internal class Program: IQuestion
 {
@@ -13,9 +12,9 @@ internal class Program: IQuestion
 
     static void Main(string[] args)
     {
-        bool test1 = ContainsDuplicate([1, 2, 3, 1]);
-        bool test2 = ContainsDuplicate([1, 2, 3, 4]);
-        bool test3 = ContainsDuplicate([1, 1, 1, 3, 3, 4, 3, 2, 4, 2]);
+        bool test1 = ContainsDuplicate([1, 2, 3, 1]); // True
+        bool test2 = ContainsDuplicate([1, 2, 3, 4]); // False
+        bool test3 = ContainsDuplicate([1, 1, 1, 3, 3, 4, 3, 2, 4, 2]); // True
 
         Console.WriteLine("{0}, {1}, {2}", test1, test2, test3);
     }

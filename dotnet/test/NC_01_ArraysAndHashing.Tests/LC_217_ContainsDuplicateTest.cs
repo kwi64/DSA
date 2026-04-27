@@ -1,4 +1,6 @@
-namespace _01_ArraysAndHashing.Tests;
+namespace NC_01_ArraysAndHashing.Tests;
+
+using NC_01_ArraysAndHashing.LC_217_ContainsDuplicate;
 
 [TestFixture]
 class LC_217_ContainsDuplicateTest
@@ -13,7 +15,7 @@ class LC_217_ContainsDuplicateTest
         // Arranged from the test case data
 
         // Act
-        bool actual = LC_217_ContainsDuplicate.ContainsDuplicate(nums);
+        bool actual = Program.ContainsDuplicate(nums);
 
         // Assert
         Assert.That(actual, Is.EqualTo(expected));

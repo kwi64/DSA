@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\01_ArraysAndHashing\01_ArraysAndHashing.csproj" />
+    <ProjectReference Include="..\..\src\NC_01_ArraysAndHashing\NC_01_ArraysAndHashing.csproj" />
   </ItemGroup>
 
 </Project>
