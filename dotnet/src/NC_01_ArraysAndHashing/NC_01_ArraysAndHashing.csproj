@@ -6,7 +6,7 @@
     <RootNamespace>NC_01_ArraysAndHashing</RootNamespace>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<StartupObject></StartupObject>
+	<StartupObject>NC_01_ArraysAndHashing.LC_242_ValidAnagram.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
