@@ -1,4 +1,6 @@
-﻿namespace NC_02_TwoPointers.Tests;
+﻿using NC_02_TwoPointers.LC_125_ValidPalindrome;
+
+namespace NC_02_TwoPointers.Tests;
 
 [TestFixture]
 public class LC_125_ValidPalindromeTest
@@ -14,7 +16,7 @@ public class LC_125_ValidPalindromeTest
         // Arrange
 
         // Act
-        bool actual = LC_125_ValidPalindrome.IsPalindrome(s);
+        bool actual = Program.IsPalindrome(s);
 
         // Assert
         Assert.That(actual, Is.EqualTo(expected));

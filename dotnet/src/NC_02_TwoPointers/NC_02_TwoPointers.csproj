@@ -6,7 +6,7 @@
     <RootNamespace>NC_02_TwoPointers</RootNamespace>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>NC_02_TwoPointers.LC_125_ValidPalindrome</StartupObject>
+    <StartupObject>NC_02_TwoPointers.LC_125_ValidPalindrome.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

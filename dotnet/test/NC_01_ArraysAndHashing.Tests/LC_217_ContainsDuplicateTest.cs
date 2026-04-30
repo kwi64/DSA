@@ -1,6 +1,6 @@
-namespace NC_01_ArraysAndHashing.Tests;
-
 using NC_01_ArraysAndHashing.LC_217_ContainsDuplicate;
+
+namespace NC_01_ArraysAndHashing.Tests;
 
 [TestFixture]
 class LC_217_ContainsDuplicateTest
