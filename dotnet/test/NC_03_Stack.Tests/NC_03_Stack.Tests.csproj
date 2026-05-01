@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
-    <RootNamespace>_03_Stack.Tests</RootNamespace>
+    <RootNamespace>NC_03_Stack.Tests</RootNamespace>
     <LangVersion>latest</LangVersion>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\03_Stack\03_Stack.csproj" />
+    <ProjectReference Include="..\..\src\NC_03_Stack\NC_03_Stack.csproj" />
   </ItemGroup>
 
 </Project>

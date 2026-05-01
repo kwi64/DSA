@@ -1,4 +1,6 @@
-﻿namespace _03_Stack.Tests;
+﻿using NC_03_Stack.LC_20_ValidParentheses;
+
+namespace NC_03_Stack.Tests;
 
 [TestFixture]
 public class Tests
@@ -16,7 +18,7 @@ public class Tests
         // Arrange
 
         // Act
-        bool actual = LC_20_ValidParentheses.IsValid(s);
+        bool actual = Program.IsValid(s);
 
         // Assert
         Assert.That(actual, Is.EqualTo(expected));

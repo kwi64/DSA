@@ -5,15 +5,15 @@
     <Platform Name="x86" />
   </Configurations>
   <Folder Name="/src/">
-    <Project Path="src/03_Stack/03_Stack.csproj" />
     <Project Path="src/04_BinarySearch/04_BinarySearch.csproj" />
     <Project Path="src/NC_01_ArraysAndHashing/NC_01_ArraysAndHashing.csproj" />
     <Project Path="src/NC_02_TwoPointers/NC_02_TwoPointers.csproj" />
+    <Project Path="src/NC_03_Stack/NC_03_Stack.csproj" />
   </Folder>
   <Folder Name="/test/">
-    <Project Path="test/03_Stack.Tests/03_Stack.Tests.csproj" />
     <Project Path="test/04_BinarySearch.Tests/04_BinarySearch.Tests.csproj" />
     <Project Path="test/NC_01_ArraysAndHashing.Tests/NC_01_ArraysAndHashing.Tests.csproj" />
     <Project Path="test/NC_02_TwoPointers.Tests/NC_02_TwoPointers.Tests.csproj" />
+    <Project Path="test/NC_03_Stack.Tests/NC_03_Stack.Tests.csproj" />
   </Folder>
 </Solution>
