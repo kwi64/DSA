@@ -10,7 +10,7 @@ internal class Program: IQuestion
     */
     public static bool IsValid(string s)
     {
-        return Solution2.IsValid(s);
+        return Solution3.IsValid(s);
     }
 
     static void Main(string[] args)
