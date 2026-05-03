@@ -3,7 +3,7 @@
 namespace NC_03_Stack.Tests;
 
 [TestFixture]
-public class Tests
+public class LC_20_ValidParenthesesTest
 {
     [Test]
     [TestCase("()", true)]
