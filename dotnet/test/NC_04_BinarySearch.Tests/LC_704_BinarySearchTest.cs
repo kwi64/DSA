@@ -1,4 +1,6 @@
-﻿namespace _04_BinarySearch.Tests;
+﻿using NC_04_BinarySearch.LC_704_BinarySearch;
+
+namespace NC_04_BinarySearch.Tests;
 
 public class LC_704_BinarySearchTest
 {
@@ -10,7 +12,7 @@ public class LC_704_BinarySearchTest
         // Arrange
 
         // Act
-        int actual = LC_704_BinarySearch.Search(nums, target);
+        int actual = Program.Search(nums, target);
 
         // Assert
         Assert.That(actual, Is.EqualTo(expected));

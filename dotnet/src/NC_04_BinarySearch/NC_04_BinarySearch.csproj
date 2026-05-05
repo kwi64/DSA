@@ -9,6 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <InternalsVisibleTo Include="04_BinarySearch.Tests" />
+    <InternalsVisibleTo Include="NC_04_BinarySearch.Tests" />
   </ItemGroup>
 </Project>
